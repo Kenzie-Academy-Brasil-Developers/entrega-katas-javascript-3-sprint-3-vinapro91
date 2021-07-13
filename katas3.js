@@ -7,6 +7,7 @@ const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 39
 // 3. Essa função deve ser chamada dentro de todas as outras funções.  
 function showResults (value){
     let newElement = document.createElement("div");
+        newElement.className = "box_function"
               
        let newText = document.createTextNode(value);
        newElement.appendChild(newText);
@@ -17,55 +18,50 @@ function showResults (value){
 }
 
 function kata1() {
-    function oneThroughTwentyFive() {
+    
         let meuretorno = []
         for (let i= 1; i<=25; i++){
           meuretorno[i-1] = i
         }
-       return meuretorno   
-       } 
-       showResults(oneThroughTwentyFive())
+        showResults("kata1:")      
+       showResults(meuretorno)
 }kata1() 
 
 function kata2() {
-    function countingBackwards() {
-    
+        
         let backfwards = []
         for (let i= 25; i>0; i--){
           backfwards.push(i) 
       }
-      return backfwards
-    }
-      showResults(countingBackwards())
+    backfwards
+        showResults("kata2:")
+        showResults(backfwards)
 }kata2()
 
 function kata3() {
-    function oneThroughTwentyFiveNegative() {
+    
         let meuretorno = []
         for (let i= 1; i<=25; i++){
           meuretorno[i-1] = -i
         }
-       return meuretorno   
-       } 
-       showResults(oneThroughTwentyFiveNegative())
+       meuretorno   
+       showResults("kata3")
+       showResults(meuretorno)
 }kata3()
 
-function kata4() {
-    
-    function countingBackwards2() {
-    
+function kata4() { 
             let backfwards = []
             for (let i= 25; i>0; i--){
               backfwards.push(-i) 
           }
-          return backfwards
-        }
-          showResults(countingBackwards2())
+           backfwards
+           showResults("kata4:")
+          showResults(backfwards)
 
 }kata4()
 
 function kata5() {
-    function countingBackwards() {
+    
     
         let backfwards = []
         for (let i= 25; i>0; i--){
@@ -80,145 +76,123 @@ function kata5() {
           }            
         }
         backfwards.push(meuretorno)
-      return backfwards 
-    }
-      showResults(countingBackwards())
-    // implemente o código do kata 5 aqui
+        showResults("kata5:")
+      showResults(backfwards)
 }
 kata5()
 
 function kata6() {
-    function divs3() {
+    
         let meuretorno = []
         for (let i= 1; i<=100; i++){
           if (i%3 ==0 ) {meuretorno.push(i)}
         }
-       return meuretorno   
-       } 
-       showResults(divs3())
+        showResults("kata6:")
+       showResults(meuretorno)
     
 }
 kata6()
 
 function kata7() {
-    function divs7() {
         let meuretorno = []
         for (let i= 1; i<=100; i++){
           if (i%7 ==0 ) {meuretorno.push(i)}
-        }
-       return meuretorno   
-       } 
-       showResults(divs7())
+        }      
+        showResults("kata7:")
+        showResults(meuretorno)
 } kata7()
 
 function kata8() {
-    function countingBackwards() {
-    
         let backfwards = []
         for (let i= 100; i>0; i--){
           if (i%3 == 0 || i%7 == 0 ){
               backfwards.push(i)
             } 
       }
-      return backfwards
-    }
-      showResults(countingBackwards())
+      showResults("kata8:")
+      showResults(backfwards)
     
 }kata8()
 
 function kata9() {
-    function divs5() {
         let meuretorno = []
         for (let i= 1; i<=100; i++){
-          if (i%5 == 0 && i%2 == 0) {meuretorno.push(i)}
-        }
-       return meuretorno   
-       } 
-       showResults(divs5())
-    // implemente o código do kata 9 aqui
+          if (i%5 == 0 && i%2 == 1) {meuretorno.push(i)}
+        } 
+        showResults("kata9:")  
+       showResults(meuretorno)
+       
 }kata9()
 
 function kata10() {
-    function NumberSample() {
         let contador = []  
         for(let i = 0 ; i<20 ; i ++) {
                 contador.push(sampleArray[i])
-            } 
-            return contador
-    }showResults(NumberSample())
-    // implemente o código do kata 10 aqui
+            }
+            showResults("kata10:") 
+            showResults(contador)
 }kata10()
 
 function kata11() {
-    function NumberSample() {
         let contador = []  
         for(let i = 0 ; i<sampleArray.length ; i ++) {
                if(sampleArray[i]%2 == 0){
                     contador.push(sampleArray[i])
                }
-            } 
-            return contador
-    }showResults(NumberSample())
+        } 
+        showResults("kata11:")    
+        showResults(contador)
 }kata11()
 
 function kata12() {
-    function NumberSample() {
         let contador = []  
         for(let i = 0 ; i<sampleArray.length ; i ++) {
                if(sampleArray[i]%2 == 1){
                     contador.push(sampleArray[i])
                }
-            } 
-            return contador
-    }showResults(NumberSample())
+        } 
+        showResults("kata12:")    
+        showResults(contador)
     
 }kata12()
 
 function kata13() {
-    function NumberSample() {
         let contador = []  
         for(let i = 0 ; i<sampleArray.length ; i ++) {
                if(sampleArray[i]%8 == 0){
                     contador.push(sampleArray[i])
                }
-            } 
-            return contador
-    }showResults(NumberSample())
+         } 
+         showResults("kata13:")  
+         showResults(contador)
 }kata13()
 
 function kata14() {
-    function NumberSample() {
         let contador = []  
         for(let i = 0 ; i<sampleArray.length ; i ++) {
                contador.push(sampleArray[i]*sampleArray[i])
                
             } 
-            return contador
-    }showResults(NumberSample())
-    // implemente o código do kata 14 aqui
+            showResults("kata14:")
+            showResults(contador)
 }kata14()
 
 function kata15() {
-    function somanumeros() {
         let contador = 0
         for(let i = 1; i<=20; i++){
             contador +=  i
         }
-        return contador
-    }
-    showResults(somanumeros())
+        showResults("kata15:")
+        showResults(contador)
 }kata15()
 
 function kata16() {
-    function somanumeros() {
         let contador = 0
         for(let i = 1; i<sampleArray.length; i++){
             contador +=  sampleArray[i]
         }
-        return contador
-    }
-    showResults(somanumeros())
-    // implemente o código do kata 16 aqui
+        showResults("kata16:")
+        showResults(contador)
 }kata16()
 
 function kata17() {
@@ -234,6 +208,7 @@ function kata17() {
             return guarda
         } 
     }
+    showResults("kata17:")
     showResults(menorValor())
 }kata17()
 
@@ -251,6 +226,7 @@ function kata18() {
             return guarda
         } 
     }
+    showResults("kata18:")
     showResults(menorValor())
 }kata18()
 

@@ -1,0 +1,10 @@
+.box_function {
+    border-top:1px solid rgb(253, 38, 38);
+    border-bottom:1px solid rgb(204, 85, 158);
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
