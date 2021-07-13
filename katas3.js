@@ -25,7 +25,7 @@ function kata1() {
        return meuretorno   
        } 
        showResults(oneThroughTwentyFive())
-}
+}kata1() 
 
 function kata2() {
     function countingBackwards() {
@@ -37,7 +37,7 @@ function kata2() {
       return backfwards
     }
       showResults(countingBackwards())
-}
+}kata2()
 
 function kata3() {
     function oneThroughTwentyFiveNegative() {
@@ -48,7 +48,7 @@ function kata3() {
        return meuretorno   
        } 
        showResults(oneThroughTwentyFiveNegative())
-}
+}kata3()
 
 function kata4() {
     
@@ -62,7 +62,8 @@ function kata4() {
         }
           showResults(countingBackwards2())
 
-}
+}kata4()
+
 function kata5() {
     function countingBackwards() {
     
@@ -84,6 +85,7 @@ function kata5() {
       showResults(countingBackwards())
     // implemente o código do kata 5 aqui
 }
+kata5()
 
 function kata6() {
     function divs3() {
@@ -96,6 +98,7 @@ function kata6() {
        showResults(divs3())
     
 }
+kata6()
 
 function kata7() {
     function divs7() {
@@ -106,7 +109,7 @@ function kata7() {
        return meuretorno   
        } 
        showResults(divs7())
-}
+} kata7()
 
 function kata8() {
     function countingBackwards() {
@@ -121,7 +124,7 @@ function kata8() {
     }
       showResults(countingBackwards())
     
-}
+}kata8()
 
 function kata9() {
     function divs5() {
@@ -133,7 +136,7 @@ function kata9() {
        } 
        showResults(divs5())
     // implemente o código do kata 9 aqui
-}
+}kata9()
 
 function kata10() {
     function NumberSample() {
@@ -144,7 +147,7 @@ function kata10() {
             return contador
     }showResults(NumberSample())
     // implemente o código do kata 10 aqui
-}
+}kata10()
 
 function kata11() {
     function NumberSample() {
@@ -156,7 +159,7 @@ function kata11() {
             } 
             return contador
     }showResults(NumberSample())
-}
+}kata11()
 
 function kata12() {
     function NumberSample() {
@@ -169,7 +172,7 @@ function kata12() {
             return contador
     }showResults(NumberSample())
     
-}
+}kata12()
 
 function kata13() {
     function NumberSample() {
@@ -181,7 +184,7 @@ function kata13() {
             } 
             return contador
     }showResults(NumberSample())
-}
+}kata13()
 
 function kata14() {
     function NumberSample() {
@@ -193,7 +196,7 @@ function kata14() {
             return contador
     }showResults(NumberSample())
     // implemente o código do kata 14 aqui
-}
+}kata14()
 
 function kata15() {
     function somanumeros() {
@@ -204,7 +207,7 @@ function kata15() {
         return contador
     }
     showResults(somanumeros())
-}
+}kata15()
 
 function kata16() {
     function somanumeros() {
@@ -216,7 +219,7 @@ function kata16() {
     }
     showResults(somanumeros())
     // implemente o código do kata 16 aqui
-}
+}kata16()
 
 function kata17() {
     function menorValor () {
@@ -232,7 +235,7 @@ function kata17() {
         } 
     }
     showResults(menorValor())
-}
+}kata17()
 
 
 function kata18() {
@@ -249,7 +252,7 @@ function kata18() {
         } 
     }
     showResults(menorValor())
-}
+}kata18()
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
