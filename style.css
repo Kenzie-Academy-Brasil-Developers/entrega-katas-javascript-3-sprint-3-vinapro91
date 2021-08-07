@@ -8,3 +8,17 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+#extra1{
+    width: 100px;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+#extra2{
+    width: 100px;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid black;
+}
